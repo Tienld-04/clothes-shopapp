@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/testclothes"
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      #ddl-auto: create-drop
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
